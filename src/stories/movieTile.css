@@ -1,0 +1,36 @@
+.movie-tile {
+    position: relative;
+    width: 322px;
+    height: 425px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.movie-tile-options {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.movie-tile-content {
+    font-family: Monserrat, sans-serif;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+
+    h3 {
+        margin: 0 0 10px 0;
+        font-size: 18px;
+    }
+
+    .movie-tile-release-year {
+        border: 1px solid gray;
+        padding: 3px 8px;
+        border-radius: 4px;
+    }
+}

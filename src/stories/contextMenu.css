@@ -1,0 +1,28 @@
+.contextMenu {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: rotate(90deg);
+    font-size: 18px;
+    font-weight: bold;
+    background: #232323;
+    color: white;
+}
+
+.context-menu-popup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    padding: 20px;
+    background: #232323;
+    color: white;
+    width: 200px;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.context-menu-popup.open {
+    display: flex;
+}
