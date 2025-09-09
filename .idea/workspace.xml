@@ -13,9 +13,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="327Av4fMj14Hzlw8yxuHEkb9PUq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,6 +28,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/Hanna_Kishkinova/projects/storybook2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,6 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1756761463973</updated>
       <workItem from="1756761464905" duration="537000" />
+      <workItem from="1756762790945" duration="124000" />
     </task>
     <task id="LOCAL-00001" summary="push">
       <option name="closed" value="true" />
@@ -68,11 +70,54 @@
       <option name="project" value="LOCAL" />
       <updated>1756761730279</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add storybook">
+      <option name="closed" value="true" />
+      <created>1756762838375</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756762838375</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add storybook">
+      <option name="closed" value="true" />
+      <created>1756762859052</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756762859052</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add storybook">
+      <option name="closed" value="true" />
+      <created>1756762881913</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756762881913</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add storybook">
+      <option name="closed" value="true" />
+      <created>1756762896861</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1756762896861</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="push" />
