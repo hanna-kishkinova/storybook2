@@ -1,0 +1,46 @@
+.add-movie-form__data {
+    display: flex;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    gap: 20px;
+}
+
+.add-movie-form__left {
+    box-sizing: border-box;
+    width: 350px;
+}
+
+.add-movie-form__right {
+    width: 200px;
+    box-sizing: border-box;
+}
+
+label, input, textarea, select {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+label {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+input, select {
+    height: 25px;
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    padding: 5px 10px;
+    height: 100px;
+}
+
+.controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
