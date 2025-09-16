@@ -4,20 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81a20fc6-bcb0-46ce-8756-58e54ada9c94" name="Changes" comment="add system files">
-      <change afterPath="$PROJECT_DIR$/src/stories/AddMovieForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/AddMovieForm.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/AddMovieForm.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/DeleteMovieForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/DeleteMovieForm.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/DeleteMovieForm.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Modal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Modal.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Modal.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/addMovieForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/deleteMovieForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/modal.css" afterDir="false" />
+    <list default="true" id="81a20fc6-bcb0-46ce-8756-58e54ada9c94" name="Changes" comment="module_4 add modal to the storybook">
+      <change afterPath="$PROJECT_DIR$/src/stories/MovieListPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/MovieListPage.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/header-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/search-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/movieListPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/sortControl.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/AddMovieForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/AddMovieForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/ContextMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/ContextMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/DeleteMovieForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/DeleteMovieForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/GenreSelect.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/GenreSelect.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/GenreSelect.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/GenreSelect.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Header.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Header.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/MovieDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/MovieDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/MovieDetails.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/MovieDetails.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/MovieTile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/MovieTile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/MovieTile.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/MovieTile.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/SearchForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/SearchForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/SearchForm.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/SearchForm.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/SortControl.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/SortControl.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/SortControl.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/SortControl.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/poster_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/assets/poster_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/contextMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/contextMenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/genreSelect.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/genreSelect.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/modal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/movieDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/movieDetails.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/movieTile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/movieTile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/searchForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/searchForm.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +44,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -42,8 +66,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "module__4",
-    "last_opened_file_path": "/Users/Hanna_Kishkinova/projects/storybook2",
+    "git-widget-placeholder": "module__5",
+    "last_opened_file_path": "/Users/Hanna_Kishkinova/projects/storybook2/src/stories/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,6 +80,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/stories/assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.storybook" />
     </key>

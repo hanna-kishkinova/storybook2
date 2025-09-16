@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 import "./searchForm.css";
 import {Button} from "./Button";
 
-export const SearchForm = ({ initialQuery, onSearch }) => {
-    const [query, setQuery] = useState(initialQuery);
+export const SearchForm = ({  value,  onChange }) => {
+    const [query, setQuery] = useState( value);
 
     const handleChange = (event) => {
         setQuery(event.target.value)
@@ -15,9 +15,9 @@ export const SearchForm = ({ initialQuery, onSearch }) => {
         }
     }
     const handleSearchClick = () => triggerSearch();
-    const triggerSearch = () => { onSearch(query) }
+    const triggerSearch = () => {  onChange(query) }
 
-    useEffect(() => setQuery(initialQuery), [initialQuery]);
+    useEffect(() => setQuery( value), [ value]);
 
     return (
         <div className="search-container">
@@ -28,6 +28,6 @@ export const SearchForm = ({ initialQuery, onSearch }) => {
 };
 
 SearchForm.propTypes = {
-    initialQuery: PropTypes.string.isRequired,
-    onSearch: PropTypes.func.isRequired,
+     value: PropTypes.string.isRequired,
+     onChange: PropTypes.func.isRequired,
 };

@@ -1,5 +1,5 @@
 .genre-select-component {
     display: flex;
     flex-wrap: wrap;
-    gap: 4px;
+    gap: 10px;
 }

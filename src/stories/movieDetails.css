@@ -1,8 +1,23 @@
 .movie-details {
     display: flex;
+    position: relative;
 
     img {
         width: 323px;
+    }
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -22,6 +37,7 @@
         font-weight: 300;
         text-transform: uppercase;
         margin: 0;
+        color: white;
     }
 
     .score {
@@ -32,15 +48,32 @@
         border-radius: 50%;
         justify-content: center;
         text-align: center;
-        border: 1px solid black;
+        border: 1px solid white;
         box-sizing: border-box;
-        padding-top: 9px;
+        padding: 10px 0 0 2px;
+        color: white;
     }
 }
 
 .movie-details-relevant {
     font-size: 14px;
-    color: #555555;
+    color: rgba(250, 250, 250, 0.6);
+
+    span {
+        display: inline-block;
+
+        &:after {
+            content: '&';
+            margin: 0 5px;
+        }
+
+        &:last-child {
+            &:after {
+                content: '';
+                margin: 0;
+            }
+        }
+    }
 }
 
 .movie-details-footer {
@@ -57,5 +90,5 @@
 .movie-details-description {
     font-size: 20px;
     font-weight: 300;
-    color: #555555;
+    color: rgba(250, 250, 250, 0.6);
 }

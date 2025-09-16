@@ -1,0 +1,29 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.movie-list {
+    font-family: 'Montserrat', sans-serif;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.movie-list-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.selected-movie {
+    padding: 10px;
+}
+
+.movie-controls {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding-bottom: 20px;
+}
