@@ -5,17 +5,17 @@ export default {
     title: "Components/SearchForm",
     component: SearchForm,
     parameters: {
-        layout: "centered",
+        layout: "fullscreen",
     },
     tags: ["autodocs"],
     args: {
-        onSearch: fn()
+        onChange: fn()
     },
 };
 
 export const Default = {
     args: {
-        initialQuery: 'movie_1',
-        onSearch: (val) => {console.log(val)},
+        value: 'movie_1',
+        onChange: (val) => {console.log(val)},
     },
 };

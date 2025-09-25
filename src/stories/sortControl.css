@@ -1,0 +1,29 @@
+.sort-control {
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+
+    label, select {
+        width: auto;
+        display: inline-block;
+        margin: 0;
+    }
+
+    label, select {
+        font-weight: 400;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: rgba(250, 250, 250, 0.7);
+    }
+
+    select {
+        outline: none;
+        background: transparent;
+        border: none;
+        font-weight: bold;
+        color: white;
+        padding: 0;
+    }
+}

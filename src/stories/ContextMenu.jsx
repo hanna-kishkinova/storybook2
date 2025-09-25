@@ -7,18 +7,29 @@ import {useState} from "react";
 export const ContextMenu = ({submitText, canselText, submitOnClick, canselOnClick}) => {
     const [isOpen, setIsOpen] = useState(false);
 
-    const menuClick = () => {
+    const menuClick = (e) => {
+        e.stopPropagation();
         setIsOpen(!isOpen)
     };
 
+    const handleSubmit = () => {
+        submitOnClick();
+        setIsOpen(false);
+    }
+
+    const handleCansel = () => {
+        canselOnClick();
+        setIsOpen(false);
+    }
+
     return (
-        <>
-        <div className="contextMenu" onClick={menuClick}>...</div>
-        <div className={isOpen ? 'context-menu-popup open' : 'context-menu-popup'} onClick={menuClick}>
-            <Button backgroundColor="#fff" label={submitText ? submitText : 'submit'} onClick={submitOnClick}/>
-            <Button backgroundColor="#fff" label={canselText ? canselText : 'cancel'} onClick={canselOnClick}/>
+        <div>
+            <div className="contextMenu" onClick={menuClick}>...</div>
+            <div className={isOpen ? 'context-menu-popup open' : 'context-menu-popup'} onClick={menuClick}>
+                <Button primary={true} label={submitText ? submitText : 'submit'} onClick={handleSubmit}/>
+                <Button label={canselText ? canselText : 'cancel'} onClick={handleCansel}/>
+            </div>
         </div>
-        </>
     );
 };
 

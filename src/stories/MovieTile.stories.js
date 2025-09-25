@@ -18,6 +18,8 @@ export const Default = {
             url: './assets/poster_2.png',
             releaseYear: '2003'
         },
+        onDeleteClick: () => {},
+        onEditClick: () => {},
     },
 };
 

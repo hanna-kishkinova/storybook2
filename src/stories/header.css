@@ -1,32 +1,21 @@
-.storybook-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 15px 20px;
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+.app-header {
+    background: url("./assets/header-bg.png") no-repeat center center;
+    background-size: cover;
+    height: 396px;
 }
 
-.storybook-header svg {
-  display: inline-block;
-  vertical-align: top;
-}
+.header-wrapper {
+    color: #fff;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 100px 100px 0 100px;
 
-.storybook-header h1 {
-  display: inline-block;
-  vertical-align: top;
-  margin: 6px 0 6px 10px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1;
-}
-
-.storybook-header button + button {
-  margin-left: 10px;
-}
-
-.storybook-header .welcome {
-  margin-right: 10px;
-  color: #333;
-  font-size: 14px;
+    h1 {
+        font-size: 40px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: lighter;
+        color: #fff;
+        margin-bottom: 20px;
+    }
 }

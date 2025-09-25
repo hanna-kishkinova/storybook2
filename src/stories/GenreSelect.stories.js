@@ -4,19 +4,16 @@ import { fn } from 'storybook/test';
 export default {
     title: "Components/GenreSelect",
     component: GenreSelect,
-    tags: ["autodocs"],
-    argTypes: {
-        onSelect: { control: "func" },
+    parameters: {
+        layout: "fullscreen",
     },
-    args: {
-        onSelect: fn(),
-    }
+    tags: ["autodocs"],
 };
 
 export const Default = {
     args: {
         genres: ['action', 'comedy', 'drama'],
-        selectedGenre: 'drama',
+        activeGenres: ['drama'],
     },
 };
 

@@ -1,6 +1,7 @@
 import "./addMovieForm.css";
 import PropTypes from "prop-types";
 import React from "react";
+import {Button} from "./Button";
 
 export const AddMovieForm = ({genres, onSubmit, onClose, formData}) => {
     const handleSubmit = (e) => {
@@ -59,8 +60,8 @@ export const AddMovieForm = ({genres, onSubmit, onClose, formData}) => {
                     ></textarea>
                 </div>
                 <div className="controls">
-                    <button type="button" className="btn" onClick={onClose}>Reset</button>
-                    <button type="submit" className="btn primary">Submit</button>
+                    <Button type="button" primary={false} onClick={onClose} label="Reset"></Button>
+                    <Button type="submit" primary={true} label="Submit"></Button>
                 </div>
             </form>
         </div>
