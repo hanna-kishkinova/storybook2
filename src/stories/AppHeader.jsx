@@ -1,10 +1,10 @@
-import './header.css';
+import './appHeader.css';
 import {SearchForm} from "./SearchForm";
 import {Portal} from "react-portal";
 import PropTypes from "prop-types";
 import {Modal} from "./Modal";
 
-export const Header = (props) => {
+export const AppHeader = (props) => {
     return (
         <Portal node={document && document.getElementById('header-root')}>
             <header className="app-header">
@@ -19,6 +19,6 @@ export const Header = (props) => {
     )
 };
 
-Header.propTypes = {
+AppHeader.propTypes = {
     children: PropTypes.node.isRequired,
 };

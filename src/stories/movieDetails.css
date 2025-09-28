@@ -56,6 +56,7 @@
 }
 
 .movie-details-relevant {
+    text-align: left;
     font-size: 14px;
     color: rgba(250, 250, 250, 0.6);
 
@@ -88,6 +89,7 @@
 }
 
 .movie-details-description {
+    text-align: left;
     font-size: 20px;
     font-weight: 300;
     color: rgba(250, 250, 250, 0.6);

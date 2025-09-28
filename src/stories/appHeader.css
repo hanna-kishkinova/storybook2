@@ -5,6 +5,7 @@
 }
 
 .header-wrapper {
+    text-align: left;
     color: #fff;
     height: 300px;
     background: rgba(0, 0, 0, 0.7);
