@@ -17,7 +17,6 @@ export const Default = {
         title: 'ADD MOVIE',
         children: <AddMovieForm
             onClose={() => console.log('close')}
-            onSubmit={(val) => console.log('submit', val)}
             genres={[
                 {name: 'Documentary', id: '1'},
                 {name: 'Comedy', id: '2'},
@@ -43,7 +42,6 @@ export const EditMovie = {
                 runtime: '152',
                 overview: 'When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.'
             }}
-            onSubmit={(val) => console.log('submit', val)}
             genres={[
                 {name: 'Documentary', id: '1'},
                 {name: 'Comedy', id: '2'},

@@ -80,7 +80,7 @@ export const MovieListPage = () => {
     }
 
     const handleEditMovie = async (id) => {
-        console.log('id', id);
+        navigate(`/${id}/edit`);
     }
 
     const fetchMovies = async () => {
@@ -105,7 +105,6 @@ export const MovieListPage = () => {
 
     return (
         <div className="movie-list">
-            <div id="header-root"></div>
             <Outlet/>
             <div className="container">
                 <div className="movie-controls">
