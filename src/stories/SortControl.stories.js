@@ -6,7 +6,7 @@ export default {
     argTypes: {
         value: {
             control: { type: "select" },
-            options: ["releaseDate", "title"],
+            options: ["release_date", "title"],
         },
         onChange: { action: "changed" },
     },
@@ -15,6 +15,7 @@ export default {
 
 export const Default = {
     args: {
-        options: ["releaseDate"],
+        options: ["release_date"],
+        selectedOption: "release_date",
     },
 }

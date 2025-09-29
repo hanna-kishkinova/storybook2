@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./sortControl.css";
 
-export const SortControl = ({ options, onChange }) => {
+export const SortControl = ({ options, selectedOption, onChange }) => {
     const handleChange = (event) => {
         const newValue = event.target.value;
 
@@ -18,6 +18,7 @@ export const SortControl = ({ options, onChange }) => {
                 id="sort-select"
                 onChange={handleChange}
                 className="border rounded px-2 py-1"
+                value={selectedOption}
             >
                 {options.map((option) => (
                     <option key={option} value={option}>
@@ -30,6 +31,7 @@ export const SortControl = ({ options, onChange }) => {
 };
 
 SortControl.propTypes = {
-    options: PropTypes.oneOf(["releaseDate", "title"]).isRequired,
+    options: PropTypes.oneOf(["release_date", "title"]).isRequired,
     onChange: PropTypes.func.isRequired,
+    selectedOption: PropTypes.string.isRequired,
 };

@@ -1,8 +1,8 @@
-import { Header } from './Header';
+import { AppHeader } from './AppHeader';
 
 export default {
-  title: 'Components/Header',
-  component: Header,
+  title: 'Components/AppHeader',
+  component: AppHeader,
   tags: ['autodocs'],
   parameters: {
     layout: 'fullscreen',

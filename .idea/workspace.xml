@@ -5,38 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81a20fc6-bcb0-46ce-8756-58e54ada9c94" name="Changes" comment="module_4 add modal to the storybook">
-      <change afterPath="$PROJECT_DIR$/src/stories/MovieListPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/MovieListPage.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/assets/header-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/assets/search-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/movieListPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/sortControl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/MovieDetailsWrapper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/AddMovieForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/AddMovieForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/ContextMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/ContextMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/DeleteMovieForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/DeleteMovieForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/GenreSelect.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/GenreSelect.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/GenreSelect.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/GenreSelect.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Header.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Header.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/AppHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Header.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/AppHeader.stories.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/MovieDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/MovieDetails.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/MovieDetails.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/MovieDetails.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/MovieTile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/MovieTile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/MovieTile.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/MovieTile.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/MovieListPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/MovieListPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/SearchForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/SearchForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/SearchForm.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/SearchForm.stories.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/SortControl.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/SortControl.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/SortControl.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/SortControl.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/poster_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/assets/poster_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/contextMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/contextMenu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/genreSelect.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/genreSelect.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/modal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/appHeader.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/movieDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/movieDetails.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/movieTile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/movieTile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/searchForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/searchForm.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +49,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "module__5",
+    "git-widget-placeholder": "module__6",
     "last_opened_file_path": "/Users/Hanna_Kishkinova/projects/storybook2/src/stories/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
