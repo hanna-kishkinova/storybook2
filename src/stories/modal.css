@@ -1,5 +1,5 @@
 .modal {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.9);
     padding: 30px;
     position: fixed;
     top: 100px;
@@ -7,6 +7,7 @@
     left: calc(50% - 300px);
     font-family: Montserrat, sans-serif;
     box-sizing: border-box;
+    z-index: 100;
 
     .close-btn {
         background: none;
@@ -22,12 +23,13 @@
     }
 
     .modal-title {
+        text-align: left;
         font-weight: 300;
         font-size: 40px;
         letter-spacing: 1px;
         color: white;
         text-transform: uppercase;
-        margin-bottom: 20px;
+        margin: 20px 0 40px;
     }
 
     label {
@@ -37,7 +39,6 @@
         letter-spacing: 0.89px;
         text-transform: uppercase;
         color: #F65261;
-        margin-bottom: 15px;
     }
 
     input, textarea, select {
@@ -49,32 +50,4 @@
         border: none;
         color: white;
     }
-
-
-    /*.btn {*/
-    /*    background: transparent;*/
-    /*    padding: 10px 20px;*/
-    /*    cursor: pointer;*/
-    /*    text-transform: uppercase;*/
-    /*    border: 1.5px solid #F65261;*/
-    /*    color: #F65261;*/
-
-    /*    &:hover {*/
-    /*        background: #F65261;*/
-    /*        color: white;*/
-    /*    }*/
-
-    /*    &.primary {*/
-    /*        background: #F65261;*/
-    /*        color: white;*/
-    /*        border: 1.5px solid transparent;*/
-    /*        margin-left: 10px;*/
-
-    /*        &:hover {*/
-    /*            background: transparent;*/
-    /*            color: #F65261;*/
-    /*            border: 1.5px solid #F65261;*/
-    /*        }*/
-    /*    }*/
-    /*}*/
 }

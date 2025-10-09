@@ -1,17 +1,24 @@
 import './App.css';
-import {Route, Routes, useSearchParams} from "react-router-dom";
+import {Route, Routes, useNavigate, useSearchParams} from "react-router-dom";
 import {MovieListPage} from "./stories/MovieListPage";
 import {SearchForm} from "./stories/SearchForm";
 import MovieDetailsWrapper from "./stories/MovieDetailsWrapper";
 import {AppHeader} from "./stories/AppHeader";
+import {AddMovieForm} from "./stories/AddMovieForm";
+import {Modal} from "./stories/Modal";
 
 function App() {
+    const navigate = useNavigate();
     const [searchParams, setSearchParams] = useSearchParams();
 
     // params
     const searchQuery = searchParams.get('search') || '';
     const sortCriterion = searchParams.get('sortBy') || 'title';
     const activeGenres = searchParams.get('filter') || '';
+
+    const genres = [
+        'drama', 'romance', 'animation', 'adventure', 'family', 'comedy', 'fantasy', 'science fiction', 'action'
+    ];
 
     const handleSearch = (value) => {
         if (value === searchQuery) {
@@ -23,11 +30,27 @@ function App() {
 
     return (
         <div className="App">
+            <div id="modal-root"></div>
+            <div id="header-root"></div>
             <Routes>
                 <Route path="/" element={<MovieListPage/>}>
-                    <Route path="/" element={<AppHeader>
-                        <SearchForm value={searchQuery} onChange={handleSearch}></SearchForm>
-                    </AppHeader>}/>
+                    <Route path="/" element={
+                        <AppHeader>
+                            <SearchForm value={searchQuery} onChange={handleSearch}></SearchForm>
+                        </AppHeader>}>
+                        <Route path="/new"
+                               element={
+                                   <Modal title='add film' onClose={() => navigate('/')}>
+                                       <AddMovieForm genres={genres} onClose={() => navigate('/')}/>
+                                   </Modal>
+                               }/>
+                        <Route path="/:movieId/edit"
+                               element={
+                                   <Modal title='edit film' onClose={() => navigate('/')}>
+                                       <AddMovieForm genres={genres} onClose={() => navigate('/')}/>
+                                   </Modal>
+                               }/>
+                    </Route>
                     <Route path=":movieId" element={<MovieDetailsWrapper/>}/>
                 </Route>
             </Routes>
