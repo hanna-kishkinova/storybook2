@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // For React 17+ with the new JSX Transform
+    "types": ["react/next", "react-dom/next"],
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@components/*": [
+        "components/*"
+      ]
+    },
+    "target": "ES6",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
